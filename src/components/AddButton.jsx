@@ -1,7 +1,10 @@
-import React from 'react';
+import React from "react";
 
-const AddButton = ({ onClick }) => {
+const AddButton = ({ onAdd }) => {
   return (
-    <button onClick={onClick}>Add New Todo</button>
+  <button onClick={onAdd}>Add New Todo</button>
   );
 };
+
+
+export default AddButton;

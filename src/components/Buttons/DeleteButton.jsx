@@ -1,11 +1,9 @@
 import React from 'react';
 
-const DeleteButton = ({ onClick, children }) => {
-  return (
-    <button onClick={onClick} className="delete-button">
+const DeleteButton = ({ onClick, className, children }) => (
+  <button className={className} onClick={onClick}>
       {children}
-    </button>
-  );
-};
+  </button>
+);
 
 export default DeleteButton;
